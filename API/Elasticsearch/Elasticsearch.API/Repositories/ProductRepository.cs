@@ -19,6 +19,7 @@ namespace ElasticSearch.API.Repository
             _client = client;
         }
 
+
         public async Task<Product?> SaveAsync(Product newProduct)
         {
 
